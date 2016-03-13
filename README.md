@@ -7,7 +7,7 @@ I saw other gems wrapping boilerpipe but they seemed to be outdated, hit the fre
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'boilerpipe'
+gem 'jruby-boilerpipe'
 ```
 
 And then execute:
