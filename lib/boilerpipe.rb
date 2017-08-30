@@ -3,6 +3,7 @@ require_relative 'boilerpipe-common-2.0-SNAPSHOT-jar-with-dependencies.jar'
 
 module Boilerpipe
   java_import 'com.kohlschutter.boilerpipe.extractors.ArticleExtractor'
+  java_import 'com.kohlschutter.boilerpipe.util.UnicodeTokenizer'
   java_import java.net.URL
 
   class ArticleExtractor
