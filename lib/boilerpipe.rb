@@ -7,8 +7,15 @@ module Boilerpipe
 
   class ArticleExtractor
     def  self.get_text(s)
-      url = URL.new(s)
-      ArticleExtractor::INSTANCE.get_text(url)
+      url = nil
+
+      begin
+        url = Java::JavaNet::URL.new(s)
+      rescue Java::JavaNet::MalformedURLException => e
+        # not a URL
+      end
+      input = url ? url : s
+      ArticleExtractor::INSTANCE.get_text(input)
     end
 
     class <<self  
