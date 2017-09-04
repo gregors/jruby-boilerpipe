@@ -78,6 +78,26 @@ As I work on the pure ruby implementation I've been exposing all the classes so 
 
 * [x] UnicodeTokenizer
 
+### Labels
+
+* [ ] ConditionalLabelAction
+* [ ] DefaultLabels
+* [ ] LabelAction
+
+### Estimators
+* [ ] SimpleEstimator
+
+### Conditions
+* [ ] TextBlockCondition
+
+### Other
+
+* [ ] BoilerpipeDocumentSource
+* [ ] BoilerpipeExtractor
+* [ ] BoilerpipeFilter
+* [ ] BoilerpipeInput
+* [ ] BoilerpipeProcessingException
+
 
 
 ## Installation
