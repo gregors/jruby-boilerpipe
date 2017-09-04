@@ -58,6 +58,27 @@ As I work on the pure ruby implementation I've been exposing all the classes so 
 * [ ] SplitParagraphBlocksFilter
 * [ ] SurroundingToContentFilter
 
+### SAX
+
+* [ ] BoilerpipeHTMLContentHandler
+* [x] BoilerpipeHTMLParser
+* [ ] BoilerpipeSAXInput
+* [ ] CommonTagActions
+* [ ] DefaultTagActionMap
+* [ ] HTMLDocument
+* [ ] HTMLFetcher
+* [ ] HTMLHighlighter
+* [ ] ImageExtractor
+* [ ] InputSourceable
+* [ ] MarkupTagAction
+* [ ] TagAction
+* [ ] TagActionMap
+
+### Util
+
+* [x] UnicodeTokenizer
+
+
 
 ## Installation
 
