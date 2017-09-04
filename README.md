@@ -25,6 +25,41 @@ As I work on the pure ruby implementation I've been exposing all the classes so 
 * [x] TextDocument
 * [ ] TextDocumentStatistics
 
+### Filters
+* [ ] PrintDebugFilter
+
+* [ ] DensityRulesClassifier
+* [ ] HeuristicFilterBase
+* [ ] IgnoreBlocksAfterContentFilter
+* [ ] IgnoreBlocksAfterContentFromEndFilter
+* [ ] KeepLargestFulltextBlockFilter
+* [ ] MinFulltextWordsFilter
+* [x] NumWordsRulesClassifier
+* [x] TerminatingBlocksFinder
+
+* [ ] AddPrecedingLabelsFilter
+* [ ] ArticleMetadataFilter
+* [ ] BlockProximityFusion
+* [ ] ContentFusion
+* [x] DocumentTitleMatchClassifier
+* [ ] ExpandTitleToContentFilter
+* [ ] KeepLargestBlockFilter
+* [ ] LabelFusion
+* [ ] LargeBlockSameTagLevelToContentFilter
+* [ ] ListAtEndFilter
+* [ ] SimpleBlockFusionProcessor
+* [ ] TrailingHeadlineToBoilerplateFilter
+* [ ] BoilerplateBlockFilter
+* [ ] InvertedFilter
+* [ ] LabelToBoilerplateFilter
+* [ ] LabelToContentFilter
+* [ ] MarkEverythingBoilerplateFilter
+* [ ] MarkEverythingContentFilter
+* [ ] MinClauseWordsFilter
+* [ ] MinWordsFilter
+* [ ] SplitParagraphBlocksFilter
+* [ ] SurroundingToContentFilter
+
 
 ## Installation
 
