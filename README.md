@@ -9,14 +9,14 @@ As I work on the pure ruby implementation I've been exposing all the classes so 
 ### Extractors
 
 * [x] ArticleExtractor
-* [] ArticleSentencesExtractor
-* [] CanolaExtractor
-* [] CommonExtractors
-* [] DefaultExtractor
-* [] KeepEverythingExtractor
-* [] KeepEverythingWithMinKWordsExtractor
-* [] LargestContentExtractor
-* [] NumWordsRulesExtractor
+* [ ] ArticleSentencesExtractor
+* [ ] CanolaExtractor
+* [ ] CommonExtractors
+* [ ] DefaultExtractor
+* [ ] KeepEverythingExtractor
+* [ ] KeepEverythingWithMinKWordsExtractor
+* [ ] LargestContentExtractor
+* [ ] NumWordsRulesExtractor
 
 
 ## Installation
