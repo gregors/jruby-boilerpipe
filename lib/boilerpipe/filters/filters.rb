@@ -18,7 +18,7 @@ module Boilerpipe
       end
     end
 
-    class NumWordsRulesClassifier 
+    class NumWordsRulesClassifier
       def self.process(doc)
         new.process(doc)
       end
