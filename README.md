@@ -28,8 +28,8 @@ As I work on the pure ruby implementation I've been exposing all the classes so 
 ### Filters
 
 * [ ] PrintDebugFilter
-* [ ] HeuristicFilterBase
-* [ ] IgnoreBlocksAfterContentFilter
+* [x] HeuristicFilterBase
+* [x] IgnoreBlocksAfterContentFilter
 * [ ] IgnoreBlocksAfterContentFromEndFilter
 * [ ] KeepLargestFulltextBlockFilter
 * [ ] MinFulltextWordsFilter
