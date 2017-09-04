@@ -81,7 +81,7 @@ As I work on the pure ruby implementation I've been exposing all the classes so 
 ### Labels
 
 * [ ] ConditionalLabelAction
-* [ ] DefaultLabels
+* [x] DefaultLabels
 * [ ] LabelAction
 
 ### Estimators
