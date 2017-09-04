@@ -26,6 +26,7 @@ As I work on the pure ruby implementation I've been exposing all the classes so 
 * [ ] TextDocumentStatistics
 
 ### Filters
+
 * [ ] PrintDebugFilter
 
 * [ ] DensityRulesClassifier
