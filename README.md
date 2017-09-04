@@ -7,15 +7,16 @@ I saw other gems wrapping boilerpipe but they seemed to be outdated, hit the fre
 As I work on the pure ruby implementation I've been exposing all the classes so I can test for compatibility and refactors.
 
 ### Extractors
-[x] ArticleExtractor
-[] ArticleSentencesExtractor
-[] CanolaExtractor
-[] CommonExtractors
-[] DefaultExtractor
-[] KeepEverythingExtractor
-[] KeepEverythingWithMinKWordsExtractor
-[] LargestContentExtractor
-[] NumWordsRulesExtractor
+
+* [x] ArticleExtractor
+* [] ArticleSentencesExtractor
+* [] CanolaExtractor
+* [] CommonExtractors
+* [] DefaultExtractor
+* [] KeepEverythingExtractor
+* [] KeepEverythingWithMinKWordsExtractor
+* [] LargestContentExtractor
+* [] NumWordsRulesExtractor
 
 
 ## Installation
