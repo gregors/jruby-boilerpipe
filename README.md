@@ -28,8 +28,6 @@ As I work on the pure ruby implementation I've been exposing all the classes so 
 ### Filters
 
 * [ ] PrintDebugFilter
-
-* [ ] DensityRulesClassifier
 * [ ] HeuristicFilterBase
 * [ ] IgnoreBlocksAfterContentFilter
 * [ ] IgnoreBlocksAfterContentFromEndFilter
@@ -37,7 +35,6 @@ As I work on the pure ruby implementation I've been exposing all the classes so 
 * [ ] MinFulltextWordsFilter
 * [x] NumWordsRulesClassifier
 * [x] TerminatingBlocksFinder
-
 * [ ] AddPrecedingLabelsFilter
 * [ ] ArticleMetadataFilter
 * [ ] BlockProximityFusion
