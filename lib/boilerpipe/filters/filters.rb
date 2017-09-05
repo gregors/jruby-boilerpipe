@@ -4,7 +4,9 @@ module Boilerpipe
     java_import 'com.kohlschutter.boilerpipe.filters.english.TerminatingBlocksFinder'
     java_import 'com.kohlschutter.boilerpipe.filters.english.NumWordsRulesClassifier'
     java_import 'com.kohlschutter.boilerpipe.filters.english.HeuristicFilterBase'
+    java_import 'com.kohlschutter.boilerpipe.filters.heuristics.BlockProximityFusion'
     java_import 'com.kohlschutter.boilerpipe.filters.heuristics.DocumentTitleMatchClassifier'
+    java_import 'com.kohlschutter.boilerpipe.filters.heuristics.TrailingHeadlineToBoilerplateFilter'
 
     class IgnoreBlocksAfterContentFilter
       def self.process(doc)
@@ -13,6 +15,12 @@ module Boilerpipe
     end
 
     class TerminatingBlocksFinder
+      def self.process(doc)
+        new.process(doc)
+      end
+    end
+
+    class TrailingHeadlineToBoilerplateFilter
       def self.process(doc)
         new.process(doc)
       end
