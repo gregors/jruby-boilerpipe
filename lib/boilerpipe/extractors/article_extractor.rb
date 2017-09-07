@@ -1,6 +1,5 @@
 module Boilerpipe
   java_import 'com.kohlschutter.boilerpipe.extractors.ArticleExtractor'
-  java_import 'com.kohlschutter.boilerpipe.util.UnicodeTokenizer'
   java_import java.net.URL
 
   class ArticleExtractor
