@@ -25,6 +25,12 @@ module Boilerpipe
       end
     end
 
+    class LargeBlockSameTagLevelToContentFilter
+      def self.process(doc)
+        INSTANCE.process(doc)
+      end
+    end
+
     class TerminatingBlocksFinder
       def self.process(doc)
         new.process(doc)
