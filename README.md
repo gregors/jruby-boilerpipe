@@ -1,6 +1,12 @@
 # Boilerpipe
 
-I saw other gems wrapping boilerpipe but they seemed to be outdated, hit the free api or I couldn't get them to work because of dependency issues. I went directly to the original author's github https://github.com/kohlschutter/boilerpipe and forked that code base here https://github.com/gregors/boilerpipe .  I made one notible change that is to add a user agent so article extractor wouldn't return a 403 for a variety of web servers. I compiled all dependencies into the jar using the maven-assembly-plugin using Java 8. Until the original author releases a proper 2.0 release I'll be appending rcx to reflect the latest snapshots.
+I saw other gems wrapping boilerpipe but they seemed to be outdated, hit the free api or I couldn't get them to work because of dependency issues. I went directly to the original author's github https://github.com/kohlschutter/boilerpipe and forked that code base here https://github.com/gregors/boilerpipe .  I made one notible change that is to add a user agent so article extractor wouldn't return a 403 for a variety of web servers. I compiled all dependencies into the jar using the maven-assembly-plugin using Java 8.
+
+Extractors added so far:
+
+* ArticleExtractor
+* DefaultExtractor
+
 
 ## Installation
 
