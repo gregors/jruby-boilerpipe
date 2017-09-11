@@ -4,6 +4,11 @@ module Boilerpipe
   module Extractors
     class ArticleExtractor
       java_import 'com.kohlschutter.boilerpipe.extractors.ArticleExtractor'
+
+      def self.process(doc)
+        ArticleExtractor::INSTANCE.process doc
+      end
+
       def  self.get_text(s)
         url = nil
 
